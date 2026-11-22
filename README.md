@@ -25,7 +25,8 @@ Application source and container images are private.
 
 ## Updates
 
-Successful stable releases publish the private images first, then update these
+Each successful push to the source main branch publishes a UTC timestamped
+release (`YYYY.MM.DD.HHMMSS`). Releases publish the private images first, then update these
 manifests automatically through a repository-scoped deployment key.
 Home Assistant discovers changes when its app store refreshes.
 Enable automatic updates for Apps Backend if desired. Keep PostgreSQL updates

@@ -1,3 +1,7 @@
+# 2026.11.22.083222
+
+Automated release (UTC timestamp).
+
 # 2.1.0
 
 - Use generic apps.jsie.de source and image names.
