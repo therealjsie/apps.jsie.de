@@ -2,7 +2,7 @@ name: Apps PostgreSQL
 slug: apps_postgres
 description: Shared PostgreSQL with an isolated database and login for each app module
 # Replaced with the UTC release timestamp by CI.
-version: "2026.11.22.184720"
+version: "2026.11.22.185536"
 arch: [aarch64, amd64]
 startup: services
 boot: auto
