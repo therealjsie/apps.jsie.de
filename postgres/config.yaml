@@ -1,0 +1,20 @@
+name: Apps PostgreSQL
+slug: apps_postgres
+description: Shared PostgreSQL with an isolated database and login for each app module
+version: "2.1.0"
+arch: [aarch64, amd64]
+startup: services
+boot: auto
+init: false
+backup: cold
+ports:
+  5432/tcp: null
+options:
+  admin_password: ""
+  gifts_password: ""
+  blackjack_password: ""
+schema:
+  admin_password: password
+  gifts_password: password
+  blackjack_password: password
+image: ghcr.io/therealjsie/apps-postgres

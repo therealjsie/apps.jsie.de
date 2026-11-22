@@ -1,0 +1,26 @@
+name: Apps Backend
+slug: apps_backend
+description: Shared Go gateway, portal, gift planner, and Blackjack APIs
+version: "2.1.0"
+url: https://apps.jsie.de
+arch: [aarch64, amd64]
+startup: application
+boot: auto
+init: false
+ports:
+  8000/tcp: 8090
+ports_description:
+  8000/tcp: Portal and APIs (Cloudflare Access protected)
+options:
+  access_team_domain: ""
+  access_audience: ""
+  database_host: 43f3da93-apps-postgres
+  gifts_database_password: ""
+  blackjack_database_password: ""
+schema:
+  access_team_domain: str
+  access_audience: str
+  database_host: str
+  gifts_database_password: password
+  blackjack_database_password: password
+image: ghcr.io/therealjsie/apps-backend
