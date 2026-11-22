@@ -1,6 +1,11 @@
-# 2026.11.22.083222
+# 2026.11.22.111156
 
 Automated release (UTC timestamp).
+
+# Startup configuration fix
+
+- Read Supervisor-owned options securely before dropping to the service user.
+- Report configuration read errors instead of ignoring saved settings.
 
 # 2.1.0
 
