@@ -26,7 +26,8 @@ Application source and container images are private.
 ## Updates
 
 Successful stable releases publish the private images first, then update these
-manifests. Home Assistant discovers changes when its app store refreshes.
+manifests automatically through a repository-scoped deployment key.
+Home Assistant discovers changes when its app store refreshes.
 Enable automatic updates for Apps Backend if desired. Keep PostgreSQL updates
 manually approved, with a backup before upgrading.
 
