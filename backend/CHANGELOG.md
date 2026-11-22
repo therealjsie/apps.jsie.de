@@ -1,6 +1,11 @@
-# 2026.11.22.111156
+# 2026.11.22.112635
 
 Automated release (UTC timestamp).
+
+# Routing and configuration fixes
+
+- Serve the Gift Planner and Blackjack directory URLs, including query parameters.
+- Trim surrounding whitespace from Cloudflare team domain and audience settings.
 
 # Startup configuration fix
 
